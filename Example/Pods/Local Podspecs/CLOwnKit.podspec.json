@@ -1,8 +1,8 @@
 {
   "name": "CLOwnKit",
   "version": "0.1.0",
-  "summary": "A short description of CLOwnKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "CLOwnKit.",
+  "description": "A business layer Module.",
   "homepage": "https://github.com/tomboyt/CLOwnKit",
   "license": {
     "type": "MIT",
@@ -18,5 +18,52 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "CLOwnKit/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "CLOwnKit/Classes/**/*",
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "dependencies": {
+    "CPAnimationKit": [
+
+    ],
+    "HandyJSON": [
+      "~> 5.0.1"
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "Moya": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "Kingfisher": [
+
+    ],
+    "IQKeyboardManagerSwift": [
+
+    ],
+    "DNSPageView": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ],
+    "LSTPopView": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "TXIMSDK_Plus_iOS": [
+
+    ],
+    "lottie-ios": [
+      "~> 2.5.3"
+    ]
+  },
+  "swift_version": "5.0"
 }

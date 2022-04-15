@@ -14,6 +14,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8477782B2809244300033781 /* CLOwnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477782A2809244300033781 /* CLOwnViewController.swift */; };
+		8477782F2809466D00033781 /* CLOwnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477782D2809466D00033781 /* CLOwnTableViewCell.swift */; };
+		847778302809466D00033781 /* CLOwnTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8477782E2809466D00033781 /* CLOwnTableViewCell.xib */; };
+		84777832280948C900033781 /* Own.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84777831280948C900033781 /* Own.bundle */; };
+		8477783428094A8B00033781 /* CLOwnHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477783328094A8B00033781 /* CLOwnHeadView.swift */; };
 		BFEE1ECF6B20760B64FA7C06 /* Pods_CLOwnKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5D000E99372A24FD9613B6 /* Pods_CLOwnKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +47,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		75EE184EC32ECA4A1304F7EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		792AA7997327FE6597E4C781 /* CLOwnKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CLOwnKit.podspec; path = ../CLOwnKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8477782A2809244300033781 /* CLOwnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOwnViewController.swift; sourceTree = "<group>"; };
+		8477782D2809466D00033781 /* CLOwnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOwnTableViewCell.swift; sourceTree = "<group>"; };
+		8477782E2809466D00033781 /* CLOwnTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLOwnTableViewCell.xib; sourceTree = "<group>"; };
+		84777831280948C900033781 /* Own.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Own.bundle; sourceTree = "<group>"; };
+		8477783328094A8B00033781 /* CLOwnHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOwnHeadView.swift; sourceTree = "<group>"; };
 		8522433B9A24BA55E8EDBE0C /* Pods_CLOwnKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLOwnKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B52441AF14FC2728ED830BB /* Pods-CLOwnKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLOwnKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CLOwnKit_Example/Pods-CLOwnKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AF49C06CB902C5261C7F76A3 /* Pods-CLOwnKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLOwnKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CLOwnKit_Tests/Pods-CLOwnKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,8 +105,11 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				8477782C280945BD00033781 /* View */,
+				847778292809242400033781 /* Controller */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				84777831280948C900033781 /* Own.bundle */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -146,6 +159,24 @@
 				4B5D000E99372A24FD9613B6 /* Pods_CLOwnKit_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847778292809242400033781 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8477782A2809244300033781 /* CLOwnViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8477782C280945BD00033781 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8477782D2809466D00033781 /* CLOwnTableViewCell.swift */,
+				8477782E2809466D00033781 /* CLOwnTableViewCell.xib */,
+				8477783328094A8B00033781 /* CLOwnHeadView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		DC83283FC877FD8DEBCB9FD0 /* Pods */ = {
@@ -212,10 +243,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8V6RLXT2QN;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8V6RLXT2QN;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -247,8 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				847778302809466D00033781 /* CLOwnTableViewCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				84777832280948C900033781 /* Own.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +304,45 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CLOwnKit_Example/Pods-CLOwnKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CLOwnKit/CLOwnKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DNSPageView/DNSPageView.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LSTPopView/LSTPopView.framework",
+				"${BUILT_PRODUCTS_DIR}/LSTTimer/LSTTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${PODS_ROOT}/TXIMSDK_Plus_iOS/ImSDK_Plus.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLOwnKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DNSPageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSTPopView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSTTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImSDK_Plus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,6 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8477782B2809244300033781 /* CLOwnViewController.swift in Sources */,
+				8477783428094A8B00033781 /* CLOwnHeadView.swift in Sources */,
+				8477782F2809466D00033781 /* CLOwnTableViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -478,6 +550,8 @@
 			baseConfigurationReference = 9B52441AF14FC2728ED830BB /* Pods-CLOwnKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V6RLXT2QN;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CLOwnKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +567,8 @@
 			baseConfigurationReference = D90C41E63B012EE25468AE6F /* Pods-CLOwnKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V6RLXT2QN;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CLOwnKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +583,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF49C06CB902C5261C7F76A3 /* Pods-CLOwnKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8V6RLXT2QN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +606,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0135676F9CF9353DD90FE273 /* Pods-CLOwnKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8V6RLXT2QN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.dependency 'Kingfisher'
   s.dependency 'IQKeyboardManagerSwift'
   s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
   s.dependency 'DNSPageView'
   s.dependency 'DZNEmptyDataSet'
   s.dependency 'LSTPopView'
