@@ -1,0 +1,6 @@
+framework module CLOwnKit {
+  umbrella header "CLOwnKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

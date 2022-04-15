@@ -1,0 +1,22 @@
+{
+  "name": "CLOwnKit",
+  "version": "0.1.0",
+  "summary": "A short description of CLOwnKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tomboyt/CLOwnKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tomboyt": "tomboyt@163.com"
+  },
+  "source": {
+    "git": "https://github.com/tomboyt/CLOwnKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CLOwnKit/Classes/**/*"
+}

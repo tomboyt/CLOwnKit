@@ -1,0 +1,16 @@
+PODS:
+  - CLOwnKit (0.1.0)
+
+DEPENDENCIES:
+  - CLOwnKit (from `../`)
+
+EXTERNAL SOURCES:
+  CLOwnKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLOwnKit: 67d8b682360acdfced1a4ef026691b33919ecc06
+
+PODFILE CHECKSUM: 7db2244ff8caf9928bdada73f09c6cbe71197e60
+
+COCOAPODS: 1.11.3
