@@ -24,7 +24,7 @@
                         </constraints>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" title="Chinese">
-                            <backgroundConfiguration key="background" image="table_bg_busy.png"/>
+                            <backgroundConfiguration key="background" image="CLOwnKit.bundle/table_bg_busy.png"/>
                         </buttonConfiguration>
                     </button>
                 </subviews>
@@ -40,6 +40,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="table_bg_busy.png" width="40" height="18"/>
+        <image name="CLOwnKit.bundle/table_bg_busy.png" width="128" height="128"/>
     </resources>
 </document>
