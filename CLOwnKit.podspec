@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CLOwnKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'CLOwnKit.'
   s.description      = <<-DESC
   A business layer Module.
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.swift_versions   = '5.0'
   s.source_files = 'CLOwnKit/Classes/**/*'
   s.resource_bundles = {
-    'CLOwnKit' => ['CLOwnKit/Assets/*']
+    'CLOwnKit' => ['CLOwnKit/Assets/*.{xcassets,nib}']
   }
   s.static_framework = true
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
@@ -32,5 +32,4 @@ Pod::Spec.new do |s|
   s.dependency 'SVProgressHUD'
   s.dependency 'TXIMSDK_Plus_iOS'
   s.dependency 'lottie-ios' , '~> 2.5.3'
-#  s.dependency 'UniversalToolKit'
 end

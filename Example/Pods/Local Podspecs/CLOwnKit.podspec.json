@@ -22,7 +22,7 @@
   "source_files": "CLOwnKit/Classes/**/*",
   "resource_bundles": {
     "CLOwnKit": [
-      "CLOwnKit/Assets/*"
+      "CLOwnKit/Assets/*.{xcassets,nib}"
     ]
   },
   "static_framework": true,
