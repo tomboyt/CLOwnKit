@@ -1,6 +1,6 @@
 {
   "name": "CLOwnKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "CLOwnKit.",
   "description": "A business layer Module.",
   "homepage": "https://github.com/tomboyt/CLOwnKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tomboyt/CLOwnKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,7 +22,7 @@
   "source_files": "CLOwnKit/Classes/**/*",
   "resource_bundles": {
     "CLOwnKit": [
-      "CLOwnKit/Assets/*.{xcassets,nib}"
+      "CLOwnKit/Assets/*"
     ]
   },
   "static_framework": true,

@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.swift_versions   = '5.0'
   s.source_files = 'CLOwnKit/Classes/**/*'
   s.resource_bundles = {
-    'CLOwnKit' => ['CLOwnKit/Assets/*.{xcassets,nib}']
+    'CLOwnKit' => ['CLOwnKit/Assets/*']#.{xcassets,nib}
   }
   s.static_framework = true
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
