@@ -13,11 +13,11 @@ class CLOwnHeadView: UIView {
     fileprivate lazy var disposeBag = DisposeBag()
     lazy var hButton : UIButton = {
         let hb = UIButton.init()
-        let cbundle = Bundle.init(for: self.classForCoder)
-        let cbundleName = cbundle.object(forInfoDictionaryKey: "Own.bundle")
-//        let cbundleDic = String(format: "%@.bundle", cbundleName as! CVarArg)
-        let pPath = cbundle.path(forResource: "button_136_40@2x.png", ofType: nil, inDirectory: "Own.bundle")
-        hb.setBackgroundImage(UIImage(contentsOfFile: pPath!), for: .normal)
+        let bundleUrl = Bundle.main.url(forResource: "CLOwnKit", withExtension: "bundle")
+        let sourceBundle = Bundle.init(url:bundleUrl!)
+        if let pngUrl = Bundle.pngUrl(sourceBundle:sourceBundle!, fileName: "table_bg_busy"){
+            hb.setBackgroundImage(UIImage(contentsOfFile: pngUrl), for: .normal)
+        }
         hb.setTitle("China", for: .normal)
         hb.rx.tap.subscribe(onNext:{
             print("点击了这里")

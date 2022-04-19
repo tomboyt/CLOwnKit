@@ -12,6 +12,9 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '9.0'
   s.swift_versions   = '5.0'
   s.source_files = 'CLOwnKit/Classes/**/*'
+  s.resource_bundles = {
+    'CLOwnKit' => ['CLOwnKit/Assets/*']
+  }
   s.static_framework = true
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   s.dependency 'CPAnimationKit'
@@ -29,4 +32,5 @@ Pod::Spec.new do |s|
   s.dependency 'SVProgressHUD'
   s.dependency 'TXIMSDK_Plus_iOS'
   s.dependency 'lottie-ios' , '~> 2.5.3'
+#  s.dependency 'UniversalToolKit'
 end

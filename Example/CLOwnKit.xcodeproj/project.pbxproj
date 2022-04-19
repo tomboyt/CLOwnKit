@@ -14,11 +14,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8477782B2809244300033781 /* CLOwnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477782A2809244300033781 /* CLOwnViewController.swift */; };
-		8477782F2809466D00033781 /* CLOwnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477782D2809466D00033781 /* CLOwnTableViewCell.swift */; };
-		847778302809466D00033781 /* CLOwnTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8477782E2809466D00033781 /* CLOwnTableViewCell.xib */; };
-		84777832280948C900033781 /* Own.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84777831280948C900033781 /* Own.bundle */; };
-		8477783428094A8B00033781 /* CLOwnHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477783328094A8B00033781 /* CLOwnHeadView.swift */; };
 		BFEE1ECF6B20760B64FA7C06 /* Pods_CLOwnKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5D000E99372A24FD9613B6 /* Pods_CLOwnKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +42,6 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		75EE184EC32ECA4A1304F7EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		792AA7997327FE6597E4C781 /* CLOwnKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CLOwnKit.podspec; path = ../CLOwnKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8477782A2809244300033781 /* CLOwnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOwnViewController.swift; sourceTree = "<group>"; };
-		8477782D2809466D00033781 /* CLOwnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOwnTableViewCell.swift; sourceTree = "<group>"; };
-		8477782E2809466D00033781 /* CLOwnTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLOwnTableViewCell.xib; sourceTree = "<group>"; };
-		84777831280948C900033781 /* Own.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Own.bundle; sourceTree = "<group>"; };
-		8477783328094A8B00033781 /* CLOwnHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLOwnHeadView.swift; sourceTree = "<group>"; };
 		8522433B9A24BA55E8EDBE0C /* Pods_CLOwnKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLOwnKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B52441AF14FC2728ED830BB /* Pods-CLOwnKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLOwnKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CLOwnKit_Example/Pods-CLOwnKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AF49C06CB902C5261C7F76A3 /* Pods-CLOwnKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLOwnKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CLOwnKit_Tests/Pods-CLOwnKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,11 +95,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				8477782C280945BD00033781 /* View */,
-				847778292809242400033781 /* Controller */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				84777831280948C900033781 /* Own.bundle */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -161,24 +148,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		847778292809242400033781 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				8477782A2809244300033781 /* CLOwnViewController.swift */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		8477782C280945BD00033781 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				8477782D2809466D00033781 /* CLOwnTableViewCell.swift */,
-				8477782E2809466D00033781 /* CLOwnTableViewCell.xib */,
-				8477783328094A8B00033781 /* CLOwnHeadView.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		DC83283FC877FD8DEBCB9FD0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +171,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				5227659932ACD5B0DDC2A57D /* [CP] Embed Pods Frameworks */,
+				71047263415AFBEF72D4E0A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,10 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				847778302809466D00033781 /* CLOwnTableViewCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				84777832280948C900033781 /* Own.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +317,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLOwnKit_Example/Pods-CLOwnKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		71047263415AFBEF72D4E0A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLOwnKit_Example/Pods-CLOwnKit_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CLOwnKit/CLOwnKit.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CLOwnKit.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLOwnKit_Example/Pods-CLOwnKit_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		94915AC6F0DBE1F9FBE19A11 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,9 +386,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8477782B2809244300033781 /* CLOwnViewController.swift in Sources */,
-				8477783428094A8B00033781 /* CLOwnHeadView.swift in Sources */,
-				8477782F2809466D00033781 /* CLOwnTableViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

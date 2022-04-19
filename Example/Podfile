@@ -1,5 +1,5 @@
 use_frameworks!
-
+source 'https://gitee.com/ShouZhiMuorShouMuZhi/UniversalToolSpecs.git'
 platform :ios, '9.0'
 
 target 'CLOwnKit_Example' do
