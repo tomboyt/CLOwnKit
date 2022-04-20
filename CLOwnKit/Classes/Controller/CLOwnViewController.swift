@@ -32,9 +32,6 @@ public class CLOwnViewController : UIViewController{
             self.automaticallyAdjustsScrollViewInsets = false
         }
         self.view.addSubview(table)
-        table.snp_makeConstraints { make in
-            make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 0, left: 0, bottom: 64, right: 0))
-        }
     }
 }
 extension CLOwnViewController : UITableViewDataSource,UITableViewDelegate{
