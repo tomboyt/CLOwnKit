@@ -10,6 +10,7 @@ target 'CLOwnKit_Example' do
   pod 'SnapKit'
   pod 'Kingfisher'
   pod 'IQKeyboardManagerSwift'
+  pod 'CPAnimationKit',:modular_headers => true
   pod 'RxSwift',:modular_headers => true
   pod 'RxCocoa',:modular_headers => true
   pod 'DNSPageView'
