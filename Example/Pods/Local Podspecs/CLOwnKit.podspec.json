@@ -25,7 +25,6 @@
       "CLOwnKit/Assets/*"
     ]
   },
-  "static_framework": true,
   "pod_target_xcconfig": {
     "VALID_ARCHS": "x86_64 armv7 arm64"
   },

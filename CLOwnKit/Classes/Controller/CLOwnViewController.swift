@@ -15,9 +15,9 @@ public class CLOwnViewController : UIViewController{
     fileprivate lazy var bag = DisposeBag()
     lazy var table : UITableView = {
         let table = UITableView.init(frame: view.frame, style: .grouped)
-        let bundleUrl = Bundle.main.url(forResource: "CLOwnKit", withExtension: "bundle")
-        let cBundle = Bundle.init(url: bundleUrl!)
-        table.register(UINib.init(nibName: "CLOwnTableViewCell", bundle: cBundle), forCellReuseIdentifier: "OwnTableViewCell")
+//        let bundleUrl = Bundle.main.url(forResource: "CLOwnKit", withExtension: "bundle")
+//        let cBundle = Bundle.init(url: bundleUrl!)
+        table.register(UINib.init(nibName: "CLOwnTableViewCell", bundle: Bundle.init(for: self.classForCoder)), forCellReuseIdentifier: "OwnTableViewCell")
         table.tableHeaderView = CLOwnHeadView.init(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 120))
         table.dataSource = self
         table.delegate = self

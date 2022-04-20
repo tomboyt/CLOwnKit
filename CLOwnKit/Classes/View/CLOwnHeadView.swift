@@ -13,10 +13,16 @@ class CLOwnHeadView: UIView {
     fileprivate lazy var disposeBag = DisposeBag()
     lazy var hButton : UIButton = {
         let hb = UIButton.init()
-        let bundleUrl = Bundle.main.url(forResource: "CLOwnKit", withExtension: "bundle")
-        let sourceBundle = Bundle.init(url:bundleUrl!)
-        if let pngUrl = Bundle.pngUrl(sourceBundle:sourceBundle!, fileName: "table_bg_busy"){
-            hb.setBackgroundImage(UIImage(contentsOfFile: pngUrl), for: .normal)
+        if let bundleUrl = Bundle.main.url(forResource: "CLOwnKit", withExtension: "bundle"){
+            let sourceBundle = Bundle.init(url:bundleUrl)
+            if let pngUrl = Bundle.pngUrl(sourceBundle:sourceBundle!, fileName: "table_bg_busy"){
+                hb.setBackgroundImage(UIImage(contentsOfFile: pngUrl), for: .normal)
+            }
+        }else{
+            let cbundle = Bundle.init(for: self.classForCoder)
+            if let pngUrl = Bundle.pngUrl(sourceBundle:cbundle, fileName: "table_bg_busy",inDirectory: "CLOwnKit.bundle"){
+                hb.setBackgroundImage(UIImage(contentsOfFile: pngUrl), for: .normal)
+            }
         }
         hb.setTitle("China", for: .normal)
         hb.rx.tap.subscribe(onNext:{

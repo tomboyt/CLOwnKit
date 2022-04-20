@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'CLOwnKit' => ['CLOwnKit/Assets/*']#.{xcassets,nib}
   }
-  s.static_framework = true
+#  s.static_framework = true
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   s.dependency 'CPAnimationKit'
   s.dependency 'HandyJSON', '~> 5.0.1'
