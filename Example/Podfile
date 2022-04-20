@@ -3,22 +3,21 @@ platform :ios, '9.0'
 
 target 'CLOwnKit_Example' do
   pod 'CLOwnKit', :path => '../'
-  pod 'TXIMSDK_Plus_iOS'
-  pod 'HandyJSON', '~> 5.0.1'
-  pod 'SwiftyJSON'
-  pod 'Moya'
-  pod 'SnapKit'
-  pod 'Kingfisher'
-  pod 'IQKeyboardManagerSwift'
-  pod 'CPAnimationKit',:modular_headers => true
-  pod 'RxSwift',:modular_headers => true
-  pod 'RxCocoa',:modular_headers => true
-  pod 'DNSPageView'
-  pod 'DZNEmptyDataSet'
-  pod 'LSTPopView'
-  pod 'SVProgressHUD'
-  pod 'TXIMSDK_Plus_iOS'
-  pod 'lottie-ios' , '~> 2.5.3'
+#  pod 'HandyJSON', '~> 5.0.1'
+#  pod 'SwiftyJSON'
+#  pod 'Moya'
+#  pod 'SnapKit'
+#  pod 'Kingfisher'
+#  pod 'IQKeyboardManagerSwift'
+#  pod 'CPAnimationKit',:modular_headers => true
+#  pod 'RxSwift',:modular_headers => true
+#  pod 'RxCocoa',:modular_headers => true
+#  pod 'DNSPageView'
+#  pod 'DZNEmptyDataSet'
+#  pod 'LSTPopView'
+#  pod 'SVProgressHUD'
+#  pod 'TXIMSDK_Plus_iOS'
+#  pod 'lottie-ios' , '~> 2.5.3'
   target 'CLOwnKit_Tests' do
     inherit! :search_paths
 

@@ -28,52 +28,5 @@
   "pod_target_xcconfig": {
     "VALID_ARCHS": "x86_64 armv7 arm64"
   },
-  "dependencies": {
-    "CPAnimationKit": [
-
-    ],
-    "HandyJSON": [
-      "~> 5.0.1"
-    ],
-    "SwiftyJSON": [
-
-    ],
-    "Moya": [
-
-    ],
-    "SnapKit": [
-
-    ],
-    "Kingfisher": [
-
-    ],
-    "IQKeyboardManagerSwift": [
-
-    ],
-    "RxSwift": [
-
-    ],
-    "RxCocoa": [
-
-    ],
-    "DNSPageView": [
-
-    ],
-    "DZNEmptyDataSet": [
-
-    ],
-    "LSTPopView": [
-
-    ],
-    "SVProgressHUD": [
-
-    ],
-    "TXIMSDK_Plus_iOS": [
-
-    ],
-    "lottie-ios": [
-      "~> 2.5.3"
-    ]
-  },
   "swift_version": "5.0"
 }

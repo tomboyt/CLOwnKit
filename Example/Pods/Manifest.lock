@@ -1,117 +1,16 @@
 PODS:
-  - Alamofire (4.9.1)
-  - CLOwnKit (0.1.2):
-    - CPAnimationKit
-    - DNSPageView
-    - DZNEmptyDataSet
-    - HandyJSON (~> 5.0.1)
-    - IQKeyboardManagerSwift
-    - Kingfisher
-    - lottie-ios (~> 2.5.3)
-    - LSTPopView
-    - Moya
-    - RxCocoa
-    - RxSwift
-    - SnapKit
-    - SVProgressHUD
-    - SwiftyJSON
-    - TXIMSDK_Plus_iOS
-  - CPAnimationKit (0.0.1)
-  - DNSPageView (2.1.0)
-  - DZNEmptyDataSet (1.8.1)
-  - HandyJSON (5.0.2)
-  - IQKeyboardManagerSwift (6.5.9)
-  - Kingfisher (4.10.1)
-  - lottie-ios (2.5.3)
-  - LSTPopView (0.3.10):
-    - LSTPopView/Code (= 0.3.10)
-    - LSTTimer
-  - LSTPopView/Code (0.3.10):
-    - LSTTimer
-  - LSTTimer (0.2.10)
-  - Moya (13.0.1):
-    - Moya/Core (= 13.0.1)
-  - Moya/Core (13.0.1):
-    - Alamofire (~> 4.1)
-    - Result (~> 4.1)
-  - Result (4.1.0)
-  - RxCocoa (6.5.0):
-    - RxRelay (= 6.5.0)
-    - RxSwift (= 6.5.0)
-  - RxRelay (6.5.0):
-    - RxSwift (= 6.5.0)
-  - RxSwift (6.5.0)
-  - SnapKit (4.2.0)
-  - SVProgressHUD (2.2.5)
-  - SwiftyJSON (5.0.1)
-  - TXIMSDK_Plus_iOS (6.1.2166)
+  - CLOwnKit (0.1.2)
 
 DEPENDENCIES:
   - CLOwnKit (from `../`)
-  - CPAnimationKit
-  - DNSPageView
-  - DZNEmptyDataSet
-  - HandyJSON (~> 5.0.1)
-  - IQKeyboardManagerSwift
-  - Kingfisher
-  - lottie-ios (~> 2.5.3)
-  - LSTPopView
-  - Moya
-  - RxCocoa
-  - RxSwift
-  - SnapKit
-  - SVProgressHUD
-  - SwiftyJSON
-  - TXIMSDK_Plus_iOS
-
-SPEC REPOS:
-  trunk:
-    - Alamofire
-    - CPAnimationKit
-    - DNSPageView
-    - DZNEmptyDataSet
-    - HandyJSON
-    - IQKeyboardManagerSwift
-    - Kingfisher
-    - lottie-ios
-    - LSTPopView
-    - LSTTimer
-    - Moya
-    - Result
-    - RxCocoa
-    - RxRelay
-    - RxSwift
-    - SnapKit
-    - SVProgressHUD
-    - SwiftyJSON
-    - TXIMSDK_Plus_iOS
 
 EXTERNAL SOURCES:
   CLOwnKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  CLOwnKit: b0ef068f6f1fa1e43be2cf85e54bbf994601e0d0
-  CPAnimationKit: 4b276640594799fb1038f7e82e9b420df91e6055
-  DNSPageView: 4d77a61f49a5668ec330fb7bd620d81354371ea7
-  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
-  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
-  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
-  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
-  LSTPopView: 9379f00f6ce7d1fc620b50ab00ed3ef97b2d4d52
-  LSTTimer: caf8f02ff366ca175cf4c1778d26c166183c1b6f
-  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
-  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
-  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
-  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
-  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
-  TXIMSDK_Plus_iOS: 9edddba97d7ad3691ac278e81ee89e0a72a90f5e
+  CLOwnKit: 6704638026727173820b77e7d85c7a07f105e1a0
 
-PODFILE CHECKSUM: f2c4878dce36bbf5adf31930fc7840d12ddb5477
+PODFILE CHECKSUM: 38df62b1dfe2b11de8e3f7e6990f369746d60035
 
 COCOAPODS: 1.11.3
