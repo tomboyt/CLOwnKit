@@ -13,23 +13,11 @@ Pod::Spec.new do |s|
   s.swift_versions   = '5.0'
   s.source_files = 'CLOwnKit/Classes/**/*'
   s.resource_bundles = {
-    'CLOwnKit' => ['CLOwnKit/Assets/*']#.{xcassets,nib}
+    'CLOwnKit' => ['CLOwnKit/Assets/*']
   }
-#  s.static_framework = true
+  #s.static_framework = true
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-#  s.dependency 'CPAnimationKit'
-#  s.dependency 'HandyJSON', '~> 5.0.1'
-#  s.dependency 'SwiftyJSON'
-#  s.dependency 'Moya'
   s.dependency 'SnapKit'
-#  s.dependency 'Kingfisher'
-#  s.dependency 'IQKeyboardManagerSwift'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
-#  s.dependency 'DNSPageView'
-#  s.dependency 'DZNEmptyDataSet'
-#  s.dependency 'LSTPopView'
-#  s.dependency 'SVProgressHUD'
-#  s.dependency 'TXIMSDK_Plus_iOS'
-#  s.dependency 'lottie-ios' , '~> 2.5.3'
 end

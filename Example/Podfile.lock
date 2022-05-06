@@ -1,15 +1,36 @@
 PODS:
-  - CLOwnKit (0.1.2)
+  - CLOwnKit (0.1.2):
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - CLOwnKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   CLOwnKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CLOwnKit: 6704638026727173820b77e7d85c7a07f105e1a0
+  CLOwnKit: 8dda2b2beaaae61a046de2d34bec199738399ef6
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: 38df62b1dfe2b11de8e3f7e6990f369746d60035
 
